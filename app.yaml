@@ -1,0 +1,10 @@
+runtime: nodejs12
+service: node-2
+env: standard
+
+env_variables:
+  BUCKET_NAME: "node-test-2"
+
+handlers:
+- url: /.*
+  script: auto
